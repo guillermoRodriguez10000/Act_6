@@ -1,0 +1,9 @@
+span{
+    color: lightseagreen;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.card{
+    border: 1px solid black;
+}

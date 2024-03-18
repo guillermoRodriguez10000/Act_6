@@ -1,0 +1,10 @@
+<section class="mt-4 container">
+    <h2>Usuarios disponibles:</h2>
+    <div class="row">
+        @for (usuario of arrUsuarios; track usuario.id) {
+            <app-user-card [user]="usuario" class="col-12 col-md-6 col-lg-3 mb-4"></app-user-card>
+        }
+    </div>
+
+</section>
+

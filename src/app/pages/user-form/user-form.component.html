@@ -1,0 +1,20 @@
+<form [formGroup]="formularioUsuarios" (ngSubmit)="getDataForm()"  class="container">
+    <div class="mb-3">
+        <label class="fw-bold form-label " for="first_name">Nombre Usuario:</label>
+        <input type="text" class="form-control" id="first_name" placeholder="Williams" formControlName="first_name">
+    </div>
+    <div class="mb-3">
+        <label class="fw-bold form-label " for="first_name">Apellidos Usuario:</label>
+        <input type="text" class="form-control" id="first_name" placeholder="Shakes" formControlName="last_name">
+    </div>
+    <div class="mb-3">
+        <label class="fw-bold form-label " for="first_name">Email Usuarios:</label>
+        <input type="text" class="form-control" id="first_name" placeholder="william@gmail.com" formControlName="email">
+    </div>
+    <div class="mb-3">
+        <label class="fw-bold form-label " for="first_name">Imagen Usuarios:</label>
+        <input type="text" class="form-control" id="first_name" placeholder="Williams.png" formControlName="image">
+    </div>
+    <input type="submit" class="btn btn-success">
+    <input type="button" value="Volver" class="btn btn-secondary" (click)="volver()">
+</form>
